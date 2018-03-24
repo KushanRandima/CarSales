@@ -1,0 +1,17 @@
+<h2>My Cars</h2>
+<ul class="cars">
+  <li *ngFor="let car of cars" [class.selected]="car === selectedCar" (click)="onSelect(car)">
+    <span class="badge">{{car.id}}</span> {{car.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedCar">
+  <h2>{{ selectedCar.name}} Details</h2>
+  <div>
+    <span>id: </span>{{selectedCar.id}}</div>
+  <div>
+    <label>Model:
+      <input [(ngModel)]="selectedCar.name" placeholder="name">
+    </label>
+  </div>
+</div>
