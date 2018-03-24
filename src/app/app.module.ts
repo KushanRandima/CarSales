@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CarsComponent } from './cars/cars.component';
 import { CarDetailComponent } from './car-detail/car-detail.component';
 import { CarService } from './car.service';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CarService } from './car.service';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [CarService],
   bootstrap: [AppComponent]
