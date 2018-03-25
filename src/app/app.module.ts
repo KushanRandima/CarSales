@@ -8,6 +8,7 @@ import { CarDetailComponent } from './car-detail/car-detail.component';
 import { CarService } from './car.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CarAddComponent } from './car-add/car-add.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     CarsComponent,
     CarDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    CarAddComponent
   ],
   imports: [
     BrowserModule,

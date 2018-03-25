@@ -49,3 +49,23 @@
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+
+button {
+  color: white;
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: 6px;
+  top: -4px;
+  height: 2.5em;
+  border: none;
+  padding: 5px 10px;
+  margin-right: .8em;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}

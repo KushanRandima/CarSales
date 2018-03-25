@@ -1,5 +1,4 @@
-<div *ngIf="car">
-  <h2>{{car.name}} Details</h2>
+<h2>{{car.name}} Details</h2>
 
   <div>
     <span>id: </span>{{car.id}}</div>
@@ -27,5 +26,5 @@
     </label>
   </div>
 
+  <button (click)="add()">Add</button>  
   <button (click)="goBack()">Back</button>
-</div>

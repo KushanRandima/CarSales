@@ -15,6 +15,9 @@ export class CarService {
 
   getCar(id: number): Observable<Car> {
     return of(CARS.find(car => car.id === id));
+  }  
+
+  addCar(car: Car){
+    CARS.push(car);
   }
-  
 }

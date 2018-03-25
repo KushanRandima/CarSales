@@ -2,7 +2,7 @@ import { Car } from "./Car";
 
 export const CARS: Car[] = [
     {
-        id: 11,
+        id: 1,
         make: "Toyota",
         name: "Corolla",
         wheels: 4,
@@ -10,7 +10,7 @@ export const CARS: Car[] = [
         features: [1,2]
     },
     {
-        id: 12,
+        id: 2,
         make: "Toyota",
         name: "Avenza",
         wheels: 4,
@@ -18,7 +18,7 @@ export const CARS: Car[] = [
         features: [1,3]
     },
     {
-        id: 13,
+        id: 3,
         make: "Nissan",
         name: "March",
         wheels: 4,
@@ -26,7 +26,7 @@ export const CARS: Car[] = [
         features: [2,3]
     },
     {
-        id: 14,
+        id: 4,
         make: "BMW",
         name: "M6",
         wheels: 4,
@@ -34,7 +34,7 @@ export const CARS: Car[] = [
         features: [1,4]
     },
     {
-        id: 15,
+        id: 5,
         make: "BMW",
         name: "120i M Sport",
         wheels: 4,
@@ -42,7 +42,7 @@ export const CARS: Car[] = [
         features: [3,4]
     },
     {
-        id: 16,
+        id: 6,
         make: "Mazda",
         name: "Neo BL",
         wheels: 4,
@@ -50,7 +50,7 @@ export const CARS: Car[] = [
         features: [2,4]
     },
     {
-        id: 17,
+        id: 7,
         make: "Mercedes-Benz",
         name: "G63 AMG 6x6",
         wheels: 6,
@@ -58,7 +58,7 @@ export const CARS: Car[] = [
         features: [1,2,3]
     },
     {
-        id: 18,
+        id: 8,
         make: "Mistsubishi",
         name: "Outlander",
         wheels: 6,
@@ -66,7 +66,7 @@ export const CARS: Car[] = [
         features: [2,3,4]
     },
     {
-        id: 19,
+        id: 9,
         make: "Mistsubishi",
         name: "Miraj",
         wheels: 4,
@@ -74,7 +74,7 @@ export const CARS: Car[] = [
         features: [1,3,4]
     },
     {
-        id: 20,
+        id: 10,
         make: "Subaru",
         name: "Legacy",
         wheels: 4,
