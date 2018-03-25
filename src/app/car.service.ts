@@ -13,4 +13,8 @@ export class CarService {
     return of(CARS);
   }
 
+  getCar(id: number): Observable<Car> {
+    return of(CARS.find(car => car.id === id));
+  }
+  
 }

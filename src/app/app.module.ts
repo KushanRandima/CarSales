@@ -7,13 +7,15 @@ import { CarsComponent } from './cars/cars.component';
 import { CarDetailComponent } from './car-detail/car-detail.component';
 import { CarService } from './car.service';
 import { AppRoutingModule } from './/app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CarsComponent,
-    CarDetailComponent
+    CarDetailComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

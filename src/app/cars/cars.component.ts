@@ -12,7 +12,6 @@ import { CarService } from '../car.service';
 export class CarsComponent implements OnInit {
 
   cars: Car[];
-  selectedCar: Car;
 
   constructor(private carService: CarService) { }
   
@@ -23,10 +22,5 @@ export class CarsComponent implements OnInit {
   getCars(): void {
     this.carService.getCars()
     .subscribe(cars => this.cars = cars);
-  }
-
-  onSelect(car: Car) {
-    this.selectedCar = car;
-  }
-
+  } 
 }
