@@ -50,4 +50,12 @@ export class CarAddComponent implements OnInit {
     this.carService.addCar(this.car);
     this.createNewCar();
   }
+
+  isValidForm(): boolean {
+    if (this.car.make && this.car.name && this.car.type
+      && this.car.wheels > 0)
+      return true;
+    else
+      return false;
+  }
 }
